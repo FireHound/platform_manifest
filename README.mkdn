@@ -14,3 +14,7 @@ To initialize your local repository using the CyanogenMod trees, use a command l
 Then to sync up:
 
     repo sync -f --force-sync
+    
+To Build:
+
+    . build/envsetup.sh && brunch fh_<device>-userdebug
