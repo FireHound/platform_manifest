@@ -7,7 +7,10 @@
            revision="refs/tags/android-6.0.1_r46" />
 
   <remote  name="github"
-           fetch="https://github.com/CyanogenMod"
+           fetch="https://github.com" />
+           
+  <remote  name="CyanogenMod"
+           fetch="https://github.com/cyanogenmod"
            review="review.cyanogenmod.org" />
 
   <remote  name="FireHound"
