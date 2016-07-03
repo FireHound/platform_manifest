@@ -4,12 +4,12 @@ FireHound
 Getting Started
 ---------------
 
-To get started with Android/CyanogenMod, you'll need to get
+To get started with Android, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialize your local repository for FireHound repositories, enter the below command:
 
-    repo init -u git://github.com/FireHound/platform_manifest.git -b cm-13.0
+    repo init -u git://github.com/FireHound/platform_manifest.git -b mm
 
 Then to sync up:
 
