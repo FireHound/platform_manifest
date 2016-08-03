@@ -150,7 +150,7 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="CyanogenMod/android_external_zip" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
-  <project path="frameworks/av" name="FireHound/android_frameworks_av" remote"github" revision="mm" />
+  <project path="frameworks/av" name="FireHound/android_frameworks_av" remote="github" revision="mm" />
   <project path="frameworks/base" name="PMS22/android_frameworks_base" remote="github" revision="mm" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
