@@ -295,7 +295,7 @@
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="github" revision="mm" /> 
-  <project path="vendor/cmsdk" name="FireHound/android_vendor_cmsdk" remote="github" revision="mm" />
+  <project path="vendor/cmsdk" name="FireHound/cm_platform_sdk" remote="github" revision="mm" />
 
 <!-- CMSDK SAMPLES -->
   <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="CyanogenMod/android_packages_apps_OpenWeatherMapProvider" />
