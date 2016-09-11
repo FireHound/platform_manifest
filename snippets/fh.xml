@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Firehound additions -->
+  <project path="android" name="platform_manifest" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="firehound" />
+  <project path="prebuilts/cmsdk" name="android_prebuilts_cmsdk" clone-depth="1" remote="firehound" />
+  <project path="vendor/cm" name="android_vendor_cm" remote="firehound" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="firehound" />
+</manifest>
