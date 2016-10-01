@@ -7,7 +7,7 @@ Getting Started
 To get started with Firehound, you'll need to get
 familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the CyanogenMod trees, use a command like this:
+To initialise local FireHound repositories in your machine:
 
     repo init -u git://github.com/FireHound/platform_manifest.git -b n
 
