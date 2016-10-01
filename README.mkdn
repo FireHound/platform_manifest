@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/FireHound/platform_manifest/blob/n/fh_about_logo.png">
+https://raw.githubusercontent.com/FireHound/platform_manifest/n/fh_about_logo.png
 
 FireHound
 =========
