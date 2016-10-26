@@ -3,6 +3,6 @@
 
   <!-- Firehound additions -->
   <project path="packages/apps/Trebuchet" name="FireHound/android_packages_apps_Trebuchet" remote="github" revision="mm" />
-  <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="github" revision="n" />
-  <project path="vendor/cmsdk" name="FireHound/cm_platform_sdk" remote="github" revision="n" />  
+  <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="github" revision="7.1" />
+  <project path="vendor/cmsdk" name="FireHound/cm_platform_sdk" remote="github" revision="7.1" />  
 </manifest>
