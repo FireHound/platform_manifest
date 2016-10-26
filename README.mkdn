@@ -12,7 +12,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialise local FireHound repositories in your machine:
 
-    repo init -u git://github.com/FireHound/platform_manifest.git -b n
+    repo init -u git://github.com/FireHound/platform_manifest.git -b 7.1
 
 Then to sync up:
 
