@@ -28,7 +28,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="FireHound/android_build" remote="github" revision="7.1">
+  <project path="build" name="FireHound/android_build" remote="github" revision="n">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
