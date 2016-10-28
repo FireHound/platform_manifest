@@ -16,8 +16,7 @@ To initialise local FireHound repositories in your machine:
 
 Then to sync up:
 
-    repo sync
+    repo sync -f --force-sync
 
 To Build:
-    * . build/envsetup.sh && lunch fh_<device>-userdebug
-    * make -j# (# = number of jobs)
+    * . build/envsetup.sh && brunch fh_<device>-userdebug
