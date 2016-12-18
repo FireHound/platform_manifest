@@ -2,6 +2,7 @@
 <manifest>
 
   <!-- Firehound additions -->
+  <project path="android" name="FireHound/platform_manifest" remote="github" revision="7.1" />
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="github" revision="7.1" />
   <project path="vendor/cmsdk" name="FireHound/cm_platform_sdk" remote="github" revision="7.1" />  
 </manifest>
