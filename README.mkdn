@@ -18,4 +18,5 @@ Then to sync up:
     repo sync -f --force-sync
 
 To Build:
-    * . build/envsetup.sh && brunch fh_<device>-userdebug
+
+    . build/envsetup.sh && brunch fh_<device>-userdebug
