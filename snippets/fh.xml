@@ -2,8 +2,15 @@
 <manifest>
 
   <!-- Firehound additions -->
-  <project path="android" name="FireHound/platform_manifest" remote="github" revision="7.1" />
-  <project path="packages/apps/Trebuchet" name="FireHound/android_packages_apps_Trebuchet" remote="github" revision="7.1.1" />
+  <project path="platform/manifest" name="FireHound/platform_manifest" remote="github" revision="7.1" />
+  <project path="build" name="FireHound/android_build" remote="github" revision="7.1">
+     <copyfile src="core/root.mk" dest="Makefile" />
+   </project>
+  <project path="frameworks/av" name="FireHound/android_frameworks_av" remote="github" revision="7.1" />
+  <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="github" revision="7.1" />
+  <project path="packages/apps/CMParts" name="FireHound/android_packages_apps_CMParts" remote="github" revision="7.1" />
+  <project path="packages/apps/OmniSwitch" name="FireHound/android_packages_apps_OmniSwitch" remote="github" revision="7.1" />
+  <project path="packages/apps/Settings" name="FireHound/android_packages_apps_Settings" remote="github" revision="7.1" />
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="github" revision="7.1" />
   <project path="vendor/cmsdk" name="FireHound/cm_platform_sdk" remote="github" revision="7.1" />  
 </manifest>
