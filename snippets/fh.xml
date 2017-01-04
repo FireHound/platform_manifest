@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Firehound additions -->
-  <project path="platform/manifest" name="FireHound/platform_manifest" remote="github" revision="7.1" />
+  <project path="android" name="FireHound/platform_manifest" remote="github" revision="7.1" />
   <project path="build" name="FireHound/android_build" remote="github" revision="7.1">
      <copyfile src="core/root.mk" dest="Makefile" />
    </project>
