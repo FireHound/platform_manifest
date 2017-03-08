@@ -10,6 +10,7 @@
   <project path="frameworks/av" name="FireHound/android_frameworks_av" remote="github" revision="7.1" />
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="github" revision="7.1" />
   <project path="frameworks/native" name="Firehound/android_frameworks_native" remote="github" revision="7.1" />
+  <project path="frameworks/opt/cards" name="Firehound/android_frameworks_opt_cards" remote="github" revision="7.1" />
   <project path="packages/apps/CMParts" name="FireHound/android_packages_apps_CMParts" remote="github" revision="7.1" />
   <project path="packages/apps/ContactsCommon" name="FireHound/android_packages_apps_ContactsCommon" remote="github" revision="7.1" />
   <project path="packages/apps/DUI" name="FireHound/android_packages_apps_DUI" remote="github" revision="7.1" />
