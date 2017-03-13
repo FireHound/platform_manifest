@@ -16,6 +16,7 @@
   <project path="packages/apps/Dialer" name="FireHound/android_packages_apps_Dialer" remote="github" revision="7.1" />
   <project path="packages/apps/DUI" name="FireHound/android_packages_apps_DUI" remote="github" revision="7.1" />
   <project path="packages/apps/ExactCalculator" name="FireHound/android_packages_apps_ExactCalculator" remote="github" revision="7.1" />
+  <project path="packages/apps/OmniJaws" name="FireHound/android_packages_apps_OmniJaws" remote="github" revision="7.1" />
   <project path="packages/apps/OmniSwitch" name="FireHound/android_packages_apps_OmniSwitch" remote="github" revision="7.1" />
   <project path="packages/apps/OmniStyle" name="FireHound/android_packages_apps_OmniStyle" remote="github" revision="7.1" />
   <project path="packages/apps/PackageInstaller" name="FireHound/android_packages_apps_PackageInstaller" remote="github" revision="7.1" />
