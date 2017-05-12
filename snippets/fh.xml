@@ -25,6 +25,7 @@
   <project path="system/core" name="FireHound/android_system_core" remote="github" revision="7.1" />
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="github" revision="7.1" />
   <project path="vendor/cmsdk" name="FireHound/cm_platform_sdk" remote="github" revision="7.1" />  
+  <project path="vendor/ota" name="FireHound/platform_vendor_ota" remote="github" revision="master" />
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   <project path="system/sepolicy" name="FireHound/android_system_sepolicy" remote="github" revision="7.1" />
 </manifest>
