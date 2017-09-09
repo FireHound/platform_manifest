@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Custom FireHound Repos -->
+  <project path="android" name="FireHound/platform_manifest" remote="firehound" />
+  <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="firehound" />
+  <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="firehound" />
+
+</manifest>
