@@ -1,52 +1,63 @@
-LineageOS
-===========
+<img src="https://raw.githubusercontent.com/FireHound/platform_manifest/o/firehound_manifest.png">
 
-Submitting Patches
-------------------
-
-Patches are always welcome!  Please submit your patches via LineageOS Gerrit.
-You can do this by using these commands:
-
-    (From root android directory)
-    . build/envsetup.sh
-    (Go to repo you are patching, make your changes and commit)
-    lineagegerrit <for(new)/changes(patch set)> <branch/change-id>
-
-    repo start lineage-15.0 .
-    (Make your changes and commit)
-    repo upload .
-
-Note: "." means the current directory
-For more help on using this tool, use this command: `repo help upload`
-
-Make your changes and commit with a detailed message, starting with what you are working with (i.e. "vision: Update Kernel")
-Commit your patches in a single commit. Squash multiple commits using this command: `git rebase -i HEAD~<# of commits>`
-
-To view the status of your and others' patches, visit [LineageOS Code Review](https://review.lineageos.org/)
-
+FireHound
+=========
 
 Getting Started
 ---------------
+To get started with Firehound, you'll need to get familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+Syncing Source
+--------------
+To initialise local FireHound repositories in your machine:
 
-To initialize your local repository using the LineageOS trees, use a command like this:
-
-    repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
+    repo init -u git://github.com/FireHound/platform_manifest.git -b o
 
 Then to sync up:
 
-    repo sync
+    repo sync -f --force-sync
 
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions.
+To Build:
 
+    . build/envsetup.sh && brunch fh_<device>-userdebug
 
-Buildbot
---------
+Gerrit Code Review
+------------------
+Every single patch is welcomed to our Gerrit.
+To start contributing to FireHound Gerrit register yourself using Github or Google OAUTH at 
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
+    http://review.firehound.me
 
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/)
+To add SSH keys:
 
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/)
+    ssh-keygen -t rsa 
+
+Copy the public key to our Gerrit using:
+
+    Settings --> SSH Public Keys --> Add key
+
+Then to start contributing
+
+    cd <dir_where_you_synced_up>
+    repo start <branch> <repo_name>
+
+For example
+
+    cd fh/
+    repo start 7.1 frameworks/base
+
+Move to the specific repo and make your changes. 
+Then to push
+
+    git add .
+    git commit -s or git commit --amend if you are ammending any commit
+
+To push up on Gerrit
+
+    git push ssh://<username>@review.firehound.me:29418/<repo_name> HEAD:refs/for/<branch>
+
+For example
+
+    git push ssh://PMS22@review.firehound.me:29418/android_packages_apps_Settings HEAD:refs/for/7.1
+
+Happy contributing. :)
