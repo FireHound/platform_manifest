@@ -4,7 +4,6 @@
   <!-- Custom FireHound Repos -->
   <project path="android" name="FireHound/platform_manifest" remote="firehound" />
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="firehound" />
-  <project path="packages/apps/FHWalls" name="FireHound/android_packages_apps_FHWalls" remote="firehound" />
   <project path="packages/apps/Settings" name="FireHound/android_packages_apps_Settings" remote="firehound" />
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="firehound" />
 
