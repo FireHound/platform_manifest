@@ -12,6 +12,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="frameworks/av" name="android_frameworks_av" remote="firehound" />
   <project path="frameworks/base" name="android_frameworks_base" remote="firehound" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="firehound" />
   <project path="vendor/fh" name="android_vendor_fh" remote="firehound" />
