@@ -15,49 +15,8 @@ To initialise local FireHound repositories in your machine:
 
 Then to sync up:
 
-    repo sync -f --force-sync
+    repo sync
 
 To Build:
 
     . build/envsetup.sh && brunch fh_<device>-userdebug
-
-Gerrit Code Review
-------------------
-Every single patch is welcomed to our Gerrit.
-To start contributing to FireHound Gerrit register yourself using Github or Google OAUTH at 
-
-    http://review.firehound.me
-
-To add SSH keys:
-
-    ssh-keygen -t rsa 
-
-Copy the public key to our Gerrit using:
-
-    Settings --> SSH Public Keys --> Add key
-
-Then to start contributing
-
-    cd <dir_where_you_synced_up>
-    repo start <branch> <repo_name>
-
-For example
-
-    cd fh/
-    repo start 7.1 frameworks/base
-
-Move to the specific repo and make your changes. 
-Then to push
-
-    git add .
-    git commit -s or git commit --amend if you are ammending any commit
-
-To push up on Gerrit
-
-    git push ssh://<username>@review.firehound.me:29418/<repo_name> HEAD:refs/for/<branch>
-
-For example
-
-    git push ssh://PMS22@review.firehound.me:29418/android_packages_apps_Settings HEAD:refs/for/7.1
-
-Happy contributing. :)
