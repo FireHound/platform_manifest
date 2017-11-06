@@ -20,6 +20,7 @@
   <project path="device/fh/sepolicy" name="android_device_fh_sepolicy" remote="firehound" />
   <project path="frameworks/av" name="android_frameworks_av" remote="firehound" />
   <project path="frameworks/base" name="android_frameworks_base" remote="firehound" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="firehound" />
   <project path="packages/apps/Ashes" name="android_packages_apps_Ashes" remote="firehound" />
   <project path="packages/apps/CameraNextMod" name="android_packages_apps_CameraNextMod" remote="firehound" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="firehound" />
