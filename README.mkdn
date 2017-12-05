@@ -11,7 +11,7 @@ Syncing Source
 --------------
 To initialise local FireHound repositories in your machine:
 
-    repo init -u git://github.com/FireHound/platform_manifest.git -b o
+    repo init -u git://github.com/FireHound/platform_manifest.git -b o8.1
 
 Then to sync up:
 
