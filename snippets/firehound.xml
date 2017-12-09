@@ -25,6 +25,7 @@
   <project path="packages/apps/CameraNextMod" name="android_packages_apps_CameraNextMod" remote="firehound" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="firehound" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="firehound" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="firehound" />
   <project path="vendor/fh" name="android_vendor_fh" remote="firehound" />
 
 </manifest>
