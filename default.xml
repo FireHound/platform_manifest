@@ -13,13 +13,6 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-8.1.0_r1" />
 
-  <remote  name="firehound"
-           fetch="https://github.com/Firehound/"
-           sync-c="true"
-           sync-f="true"
-           sync-j="8"
-           revision="o8.1" />
-
   <default revision="refs/heads/staging/lineage-15.1"
            remote="github"
            sync-c="true"
