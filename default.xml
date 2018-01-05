@@ -16,7 +16,6 @@
   <remote  name="firehound"
            fetch="https://github.com/Firehound/"
            sync-c="true"
-           sync-f="true"
            sync-j="8"
            revision="o" />
 
