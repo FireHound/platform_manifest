@@ -6,7 +6,8 @@
          sync-c="true"
          sync-f="true"
          sync-j="4"
-         revision="o8.1" />
+         revision="o8.1"
+         review="review.firehound.me" />
 
   <!-- Custom FireHound Repos -->
   <project path="android" name="platform_manifest" remote="firehound" />
