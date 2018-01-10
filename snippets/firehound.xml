@@ -11,7 +11,6 @@
 
   <!-- Custom FireHound Repos -->
   <project path="android" name="platform_manifest" remote="firehound" />
-  <project path="bionic" name="android_bionic" groups="pdk" remote="firehound" />
   <project path="build/make" name="android_build" groups="pdk" remote="firehound" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
