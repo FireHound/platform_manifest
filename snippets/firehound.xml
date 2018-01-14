@@ -36,6 +36,7 @@
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="firehound" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="firehound" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="firehound" />
+  <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="firehound" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="firehound" />
   <project path="vendor/fh" name="android_vendor_fh" remote="firehound" />
 
