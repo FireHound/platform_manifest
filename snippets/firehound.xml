@@ -24,7 +24,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="device/fh/sepolicy" name="android_device_fh_sepolicy" remote="firehound" />
   <project path="external/DUtils" name="android_external_DUtils" remote="firehound" />
   <project path="frameworks/av" name="android_frameworks_av" remote="firehound" />
   <project path="frameworks/base" name="android_frameworks_base" remote="firehound" />
