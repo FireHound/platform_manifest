@@ -33,6 +33,7 @@
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="firehound" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="firehound" />
   <project path="packages/apps/LineageParts" name="android_packages_apps_LineageParts" remote="firehound" />
+  <project path="packages/apps/OmniStyle" name="android_packages_apps_OmniStyle" remote="firehound" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="firehound" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="firehound" />
   <project path="packages/services/OmniJaws" name="android_packages_services_OmniJaws" remote="firehound" />
