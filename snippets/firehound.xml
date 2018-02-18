@@ -19,7 +19,6 @@
   <project path="external/DUtils" name="FireHound/android_external_DUtils" remote="firehound" />
   <project path="frameworks/av" name="FireHound/android_frameworks_av" remote="firehound" />
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="firehound" />
-  <project path="frameworks/opt/net/wifi" name="FireHound/android_frameworks_opt_net_wifi" remote="firehound" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="firehound" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="firehound" />
   <project path="packages/apps/DUI" name="FireHound/android_packages_apps_DUI" remote="firehound" />
