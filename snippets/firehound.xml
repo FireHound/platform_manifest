@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote  name="firehound"
-         fetch="https://github.com/Firehound/"
-         sync-c="true"
-         sync-f="true"
-         sync-j="4"
-         revision="o8.1"
-         review="review.firehound.me" />
-
   <!-- Custom FireHound Repos -->
   <project path="android" name="platform_manifest" remote="firehound" />
   <project path="build/make" name="android_build" groups="pdk" remote="firehound" >
