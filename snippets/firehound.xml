@@ -20,6 +20,7 @@
   <project path="frameworks/av" name="FireHound/android_frameworks_av" remote="firehound" />
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="firehound" />
   <project path="frameworks/native" name="FireHound/android_frameworks_native" groups="pdk" remote="firehound" />
+  <project path="frameworks/opt/net/ims" name="FireHound/android_frameworks_opt_net_ims" groups="pdk" remote="firehound" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="firehound" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="firehound" />
   <project path="packages/apps/DUI" name="FireHound/android_packages_apps_DUI" remote="firehound" />
