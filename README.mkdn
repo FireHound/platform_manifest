@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/jhujUeg.png">
+<img allign="center" src="https://i.imgur.com/NtqTao3.png">
 
 FireHound
 =========
