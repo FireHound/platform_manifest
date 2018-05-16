@@ -20,7 +20,7 @@
   
   <remote  name="firehound"
            fetch="https://github.com/"
-           review="review.firehound.me"
+           review="review.firehound.org"
 	   revision="refs/heads/o8.1" />
 
   <!-- AOSP Projects -->
