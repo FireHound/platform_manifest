@@ -27,6 +27,7 @@
   <project path="packages/apps/LineageParts" name="FireHound/android_packages_apps_LineageParts" remote="firehound" />
   <project path="packages/apps/OmniStyle" name="FireHound/android_packages_apps_OmniStyle" remote="firehound" />
   <project path="packages/apps/Settings" name="FireHound/android_packages_apps_Settings" remote="firehound" />
+  <project path="packages/apps/Snap" name="FireHound/android_packages_apps_Snap" remote="firehound" />
   <project path="packages/overlays/Lineage" name="FireHound/android_packages_overlays_Lineage" remote="firehound" />
   <project path="packages/providers/MediaProvider" name="FireHound/android_packages_providers_MediaProvider" remote="firehound" />
   <project path="packages/services/OmniJaws" name="FireHound/android_packages_services_OmniJaws" remote="firehound" />
