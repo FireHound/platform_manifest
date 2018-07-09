@@ -16,6 +16,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/lineage/sepolicy" name="FireHound/android_device_lineage_sepolicy" remote="firehound" />
   <project path="external/DUtils" name="FireHound/android_external_DUtils" remote="firehound" />
   <project path="frameworks/av" name="FireHound/android_frameworks_av" remote="firehound" />
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="firehound" />
