@@ -34,6 +34,7 @@
   <project path="packages/services/OmniJaws" name="FireHound/android_packages_services_OmniJaws" remote="firehound" />
   <project path="packages/services/Telecomm" name="FireHound/android_packages_services_Telecomm" remote="firehound" />
   <project path="packages/services/Telephony" name="FireHound/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="firehound" />
+  <project path="prebuilts/clang/host/linux-x86" name="FireHound/android_prebuilts_clang_host_linux-x86" groups="pdk" clone-depth="1" remote="firehound" />
   <project path="system/core" name="FireHound/android_system_core" remote="firehound" />
   <project path="system/sepolicy" name="FireHound/android_system_sepolicy" remote="firehound" />
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="firehound" />
