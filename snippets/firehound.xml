@@ -23,6 +23,7 @@
   <project path="frameworks/native" name="FireHound/android_frameworks_native" groups="pdk" remote="firehound" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="firehound" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="firehound" />
+  <project path="packages/apps/Dialer" name="FireHound/android_packages_apps_Dialer" remote="firehound" />
   <project path="packages/apps/DUI" name="FireHound/android_packages_apps_DUI" remote="firehound" />
   <project path="packages/apps/Launcher3" name="FireHound/android_packages_apps_Launcher3" remote="firehound" />
   <project path="packages/apps/LineageParts" name="FireHound/android_packages_apps_LineageParts" remote="firehound" />
