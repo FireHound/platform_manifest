@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Custom FireHound Repos -->
+  <project path="build/make" name="FireHound/android_build" groups="pdk" remote="fh">
+   <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="FireHound/android_build_soong" groups="pdk,tradefed" remote="fh" >
+  <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="fh" />
+  <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="fh" />
+  <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="fh" />
+  <project path="packages/apps/Settings" name="FireHound/android_packages_apps_Settings" remote="fh" />
+  <project path="packages/services/Telecomm" name="FireHound/android_packages_services_Telecomm" remote="fh" />
+  <project path="packages/services/Telephony" name="FireHound/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fh" />
+  <project path="system/core" name="FireHound/android_system_core" remote="fh" />
+  <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="fh" />
+
+</manifest>
