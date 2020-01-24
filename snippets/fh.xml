@@ -12,6 +12,9 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
   <project path="build/soong" name="FireHound/android_build_soong" groups="pdk,tradefed" remote="fh" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="fh" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="fh" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="fh" />
