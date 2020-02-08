@@ -18,7 +18,9 @@
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="fh" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="fh" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="fh" />
+  <project path="packages/apps/OmniStyle" name="FireHound/android_packages_apps_OmniStyle" remote="fh" />
   <project path="packages/apps/Settings" name="FireHound/android_packages_apps_Settings" remote="fh" />
+  <project path="packages/apps/ThemePicker" name="FireHound/android_packages_apps_ThemePicker" groups="pdk-fs" remote="fh"/>
   <project path="packages/services/Telecomm" name="FireHound/android_packages_services_Telecomm" remote="fh" />
   <project path="packages/services/Telephony" name="FireHound/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fh" />
   <project path="system/core" name="FireHound/android_system_core" remote="fh" />
