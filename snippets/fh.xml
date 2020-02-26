@@ -15,6 +15,7 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  <project path="device/qcom/sepolicy-legacy" name="FireHound/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="fh"/>
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="fh" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="fh" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="fh" />
@@ -24,6 +25,7 @@
   <project path="packages/services/Telecomm" name="FireHound/android_packages_services_Telecomm" remote="fh" />
   <project path="packages/services/Telephony" name="FireHound/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="fh" />
   <project path="system/core" name="FireHound/android_system_core" remote="fh" />
+  <project path="system/sepolicy" name="FireHound/android_system_sepolicy" groups="pdk" remote="fh"/>
   <project path="vendor/fh" name="FireHound/android_vendor_fh" remote="fh" />
 
 </manifest>
