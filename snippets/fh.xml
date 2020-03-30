@@ -17,8 +17,10 @@
   </project>
   <project path="device/qcom/sepolicy-legacy" name="FireHound/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="fh"/>
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="fh" />
+  <project path="frameworks/native" name="FireHound/android_frameworks_native" remote="fh" />
   <project path="lineage-sdk" name="FireHound/android_lineage-sdk" remote="fh" />
   <project path="packages/apps/Ashes" name="FireHound/android_packages_apps_Ashes" remote="fh" />
+  <project path="packages/apps/LineageParts" name="FireHound/android_packages_apps_LineageParts" remote="fh" />
   <project path="packages/apps/OmniStyle" name="FireHound/android_packages_apps_OmniStyle" remote="fh" />
   <project path="packages/apps/Settings" name="FireHound/android_packages_apps_Settings" remote="fh" />
   <project path="packages/apps/ThemePicker" name="FireHound/android_packages_apps_ThemePicker" groups="pdk-fs" remote="fh"/>
