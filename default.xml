@@ -13,6 +13,10 @@
            review="android-review.googlesource.com"
            revision="refs/tags/android-10.0.0_r35" />
 
+  <remote name="fh2"
+        fetch="https://bitbucket.org/nitrogen-project"
+        sync-j="16" />
+
   <default revision="refs/heads/lineage-17.1"
            remote="github"
            sync-c="true"
