@@ -16,6 +16,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/qcom/sepolicy-legacy" name="FireHound/android_device_qcom_sepolicy-legacy" groups="qcom,pdk-qcom" remote="fh"/>
+  <project path="external/asus/stitchimage" name="android_external_asus_stitchimage" remote="fh"/>
   <project path="external/motorola/faceunlock" name="android_external_motorola_faceunlock" remote="fh2" revision="10" />
   <project path="frameworks/base" name="FireHound/android_frameworks_base" remote="fh" />
   <project path="frameworks/native" name="FireHound/android_frameworks_native" remote="fh" />
